@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{marvosym}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+
+% Set section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+    {\LARGE \textbf{John Doe}} \\
+    \vspace{5pt}
+    \href{mailto:johndoe@example.com}{johndoe@example.com} | +123 456 7890 | \href{https://linkedin.com/in/johndoe}{linkedin.com/in/johndoe} | \href{https://github.com/johndoe}{github.com/johndoe}
+\end{center}
+
+\vspace{15pt}
+
+%==================== EDUCATION ====================
+\section*{Education}
+\noindent\textbf{Bachelor of Science in Computer Science} \\
+\textit{University of Example} \hfill \textbf{2018 -- 2022} \\
+\begin{itemize}[leftmargin=*]
+    \item GPA: 3.8/4.0
+    \item Relevant Courses: Data Structures, Algorithms, Operating Systems, Machine Learning
+\end{itemize}
+
+%==================== EXPERIENCE ====================
+\section*{Experience}
+\noindent\textbf{Software Engineer Intern} \hfill \textbf{Summer 2021} \\
+\textit{TechCorp Solutions, Inc.} \\
+\begin{itemize}[leftmargin=*]
+    \item Developed and maintained features for a web-based application using JavaScript, React, and Node.js.
+    \item Improved API performance by optimizing database queries, reducing response times by 20\%.
+    \item Collaborated with a cross-functional team to design scalable microservices architecture.
+\end{itemize}
+
+\noindent\textbf{Teaching Assistant} \hfill \textbf{Fall 2020 -- Spring 2021} \\
+\textit{University of Example, Department of Computer Science} \\
+\begin{itemize}[leftmargin=*]
+    \item Assisted in teaching Data Structures and Algorithms course for 60+ students.
+    \item Held weekly office hours to help students with assignments and exam preparation.
+    \item Graded homework and provided feedback to students to improve their understanding.
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section*{Projects}
+\noindent\textbf{Personal Portfolio Website} \hfill \textbf{2022} \\
+\begin{itemize}[leftmargin=*]
+    \item Developed a responsive personal website using HTML, CSS, and JavaScript to showcase projects.
+    \item Integrated GitHub API to dynamically display recent commits and project activity.
+\end{itemize}
+
+\noindent\textbf{Smart Home Automation System} \hfill \textbf{2021} \\
+\begin{itemize}[leftmargin=*]
+    \item Built a smart home system using Raspberry Pi, Python, and IoT sensors for remote monitoring.
+    \item Created a mobile app with React Native to control home devices via WiFi.
+\end{itemize}
+
+%==================== SKILLS ====================
+\section*{Skills}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Programming Languages:} C, C++, Python, JavaScript, SQL
+    \item \textbf{Web Technologies:} React, Node.js, HTML, CSS
+    \item \textbf{Tools:} Git, Docker, Jenkins, AWS
+\end{itemize}
+
+%==================== AWARDS & CERTIFICATIONS ====================
+\section*{Awards \& Certifications}
+\begin{itemize}[leftmargin=*]
+    \item Certified AWS Solutions Architect -- Associate, 2022
+    \item Dean's List, University of Example, 2019 -- 2021
+\end{itemize}
+
+%==================== FOOTER ====================
+\begin{center}
+    \vspace{20pt}
+    \small{\textit{References available upon request.}}
+\end{center}
+
+\end{document}
